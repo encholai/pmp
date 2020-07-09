@@ -105,20 +105,23 @@ BRC=（年利率*100/投资总额)%
 <br/>完工估算EAC
 <br/>完工尚需估算ETC
 <br/>完工时偏差VAC
+<br/>完工尚需绩效指数TCPI （最后的完工的难易度>1难，<1易，=1相等）
 
 *    成本偏差=挣值-实际成本
-CV=EV-AC
+<br/>CV=EV-AC
 *    进度偏差=挣值-计划价值
-SV=EV-PV
+<br/>SV=EV-PV
 *    成本绩效指数=挣值/实际成本
-CPI=EV/AC
+<br/>CPI=EV/AC
 *    进度绩效指数SPI=净值/计划价值
-SPI=EV/PV
+<br/>SPI=EV/PV
 *    完工估算=完工预算/成本绩效指数
-EAC=BAC/CPI
+<br/>EAC=BAC/CPI
 *    （非正常）的完工估算=完工预算+实际成本-挣值
-EAC（非正常）=BAC+AC-EV
+<br/>EAC（非正常）=BAC+AC-EV
 *    完工尚需估算=完工估算-实际成本
-ETC=EAC-AC
+<br/>ETC=EAC-AC
 *    完工时偏差=完工预算-完工估算
-VAC=BAC-EAC
+<br/>VAC=BAC-EAC
+*    完工尚需绩效指数=（完工预算-挣值）/（完工预算-实际成本）
+<br/>TCPI=（BAC-EV）/（BAC-AC）
